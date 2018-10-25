@@ -16,7 +16,6 @@ body{
 }
 .player-name{
     height:25px;
-    background-color:red;
 }
 img{
     width:100px;
@@ -26,7 +25,6 @@ img{
 }
 .player-health{
     height:25px;
-    background-color:blue;
 }
 
 /* character detail div */
@@ -45,11 +43,9 @@ img{
 }
 .enemy-name{
     height:25px;
-    background-color:green;
 }
 .enemy-health{
     height:25px;
-    background-color:blue;
 }
 
 /* Fight section detail div */
@@ -59,3 +55,11 @@ img{
 }
 
 /* Defender detail div */
+#player-defender{
+    background-color: red;
+}
+/* Display detail div */
+#player-display{
+    clear: both;
+    overflow: auto;
+}
