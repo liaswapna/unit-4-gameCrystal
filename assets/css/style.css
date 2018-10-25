@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/background3.jpg);
+    font-family: 'K2D', sans-serif;
+}
+
+/* players detail div */
+.player{
+    width:150px;
+    height:150px;
+    float:left;
+    background-color: white;
+    margin-right:30px;
+}
+.player-name{
+    height:25px;
+    background-color:red;
+}
+img{
+    width:100px;
+    height:100px;
+    margin: 0px 25px;
+    
+}
+.player-health{
+    height:25px;
+    background-color:blue;
+}
+
+/* character detail div */
+#your-chara-container{
+    clear: both;
+    overflow: auto;
+}
+
+/* Enemy available to attack detail div */
+.enemy{
+    width:150px;
+    height:150px;
+    float:left;
+    background-color:red;
+    margin-right:30px;
+}
+.enemy-name{
+    height:25px;
+    background-color:green;
+}
+.enemy-health{
+    height:25px;
+    background-color:blue;
+}
+
+/* Fight section detail div */
+#attack-container{
+    clear: both;
+    overflow: auto;
+}
+
+/* Defender detail div */
