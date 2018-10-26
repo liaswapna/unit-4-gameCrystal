@@ -2,64 +2,89 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../images/background3.jpg);
-    font-family: 'K2D', sans-serif;
+    background-image: url(../images/body-crystal2.jpg);
+    font-family: 'Times New Roman', Times, serif;
+}
+#heading-container{
+    padding: 10px;
+}
+#crystal-heading{
+    padding:8px 0px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    width: 295px;
+    background-color:#cc6600;
+}
+#para-container{
+    padding: 5px 10px;
+    width: 350px !important;
+    margin: 0px;
+}
+#para{
+    background-color: #ffe6cc;
+    color: green;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;
+}
+#win-loss-container{
+    padding: 5px 10px;
 }
 
-/* players detail div */
-.player{
-    width:150px;
-    height:150px;
+#random-value{
+    background-color: rgb(47, 122, 47);
+    height: 80px;
+    width: 150px;
+    color: black;
+    float: left;
+    margin-right: 20px;
+}
+#win-loss{
+   padding: 15px;
+   font-size: 10px;
+   background-color: aqua;
+   margin-left: 160px;
+   height: 80px;
+   width: 120px;
+}
+#win-span{
     float:left;
-    background-color: white;
-    margin-right:30px;
 }
-.player-name{
-    height:25px;
+#win{
+    height:50%;
 }
-img{
-    width:100px;
-    height:100px;
-    margin: 0px 25px;
+/* #loss{
+    clear: both;
+    height:50%;
+} */
+#loss-span{
+    float:left;
+}
+#crystal-container{
+    clear: both;
+    padding: 5px 10px;
+}
+button{
+    padding: 0px !important;
+    width:50px;
+    height: 50px;
     
 }
-.player-health{
-    height:25px;
+img{
+    width:100%;
+    height: 100%;
 }
-
-/* character detail div */
-#your-chara-container{
-    clear: both;
-    overflow: auto;
+#score-container{
+    padding: 5px 10px;
 }
-
-/* Enemy available to attack detail div */
-.enemy{
-    width:150px;
-    height:150px;
-    float:left;
-    background-color:red;
-    margin-right:30px;
+#score-label{
+    height: 30px;
+    width: 150px;
+    background-color: darkcyan;
 }
-.enemy-name{
-    height:25px;
-}
-.enemy-health{
-    height:25px;
-}
-
-/* Fight section detail div */
-#attack-container{
-    clear: both;
-    overflow: auto;
-}
-
-/* Defender detail div */
-#player-defender{
-    background-color: red;
-}
-/* Display detail div */
-#player-display{
-    clear: both;
-    overflow: auto;
+#score-value{
+    margin: 10px 0px;
+    height: 80px;
+    width: 150px;
+    background-color: darkcyan;
 }
